@@ -1,4 +1,8 @@
 {
+  "name": "responsible-ai",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "affected": "nx affected",
     "affected:apps": "nx affected:apps",

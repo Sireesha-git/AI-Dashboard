@@ -1,7 +1,11 @@
 {
-  "extends": "../tsconfig.base.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "jsx": "react"
+    "jsx": "react",
+    "ignoreDeprecations": "5.0",
+    "paths": {
+      "@responsible-ai/core-ui": ["node_modules/@responsible-ai/core-ui"]
+    }
   },
   "files": [],
   "include": [],
