@@ -1,0 +1,430 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.0.4",
+  "deps": {
+    "@nrwl/workspace": "18.0.4"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".babelrc",
+        "hash": "590727577504013908"
+      },
+      {
+        "file": ".browserslistrc",
+        "hash": "8275958851849716141"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "11176557905589617688"
+      },
+      {
+        "file": "babel-jest.config.json",
+        "hash": "11710420373642498033"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "11619927385008863747"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15990701015421280842"
+      },
+      {
+        "file": "package.json",
+        "hash": "4550845584924964418"
+      },
+      {
+        "file": "src/app/App.test.tsx",
+        "hash": "12830719667932482837"
+      },
+      {
+        "file": "src/app/App.tsx",
+        "hash": "10830006655555198729"
+      },
+      {
+        "file": "src/app/AppHeader.tsx",
+        "hash": "5221810595272626462"
+      },
+      {
+        "file": "src/app/IAppSetting.tsx",
+        "hash": "17267410497284918615"
+      },
+      {
+        "file": "src/app/__snapshots__/App.test.tsx.snap",
+        "hash": "17205776147747189337"
+      },
+      {
+        "file": "src/app/applicationInterfaces.ts",
+        "hash": "18067339206188019326"
+      },
+      {
+        "file": "src/app/applications.ts",
+        "hash": "16688491436350186004"
+      },
+      {
+        "file": "src/app/textApplications.ts",
+        "hash": "6709198070959715476"
+      },
+      {
+        "file": "src/app/themes.ts",
+        "hash": "10078890705869431866"
+      },
+      {
+        "file": "src/app/visionApplications.ts",
+        "hash": "7347986131439836832"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "5537826423027521172"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "4405016818897499228"
+      },
+      {
+        "file": "src/error-analysis/App.tsx",
+        "hash": "14340704403555829032"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/adultCensus.ts",
+        "hash": "658418446670651888"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyMatrix.ts",
+        "hash": "2254123502042096786"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyMatrixBoston.ts",
+        "hash": "8634202225222226796"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyMatrixOnedInterval.ts",
+        "hash": "6904336138484043238"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyMatrixPrecisionBreastCancer.ts",
+        "hash": "582529258727343323"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyMatrixTwodInterval.ts",
+        "hash": "11838544921848880059"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeAdultCensusIncome.ts",
+        "hash": "11860990089552782028"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeBoston.ts",
+        "hash": "7328035696485844183"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeBreastCancer.ts",
+        "hash": "1728580776758519141"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeBreastCancerPrecision.ts",
+        "hash": "1485336648242814796"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeBreastCancerRecall.ts",
+        "hash": "17766186556745816035"
+      },
+      {
+        "file": "src/error-analysis/__mock_data__/dummyTreeWine.ts",
+        "hash": "3988444060644793085"
+      },
+      {
+        "file": "src/error-analysis/utils.ts",
+        "hash": "5367776626740876662"
+      },
+      {
+        "file": "src/fairness/App.tsx",
+        "hash": "12760791717160794209"
+      },
+      {
+        "file": "src/fairness/__mock_data__/binaryClassification.ts",
+        "hash": "6611026063783175557"
+      },
+      {
+        "file": "src/fairness/__mock_data__/binaryClassificationWithError.ts",
+        "hash": "11291929023342091482"
+      },
+      {
+        "file": "src/fairness/__mock_data__/precomputedBinary.ts",
+        "hash": "14870209703861314537"
+      },
+      {
+        "file": "src/fairness/__mock_data__/precomputedBinaryMissingMetrics.ts",
+        "hash": "12973187129880468392"
+      },
+      {
+        "file": "src/fairness/__mock_data__/precomputedBinaryTwo.ts",
+        "hash": "6340843238145657470"
+      },
+      {
+        "file": "src/fairness/__mock_data__/precomputedBinaryWithError.ts",
+        "hash": "5652670701798950185"
+      },
+      {
+        "file": "src/fairness/__mock_data__/probability.ts",
+        "hash": "9936810777156718086"
+      },
+      {
+        "file": "src/fairness/__mock_data__/regression.ts",
+        "hash": "10987149420700126730"
+      },
+      {
+        "file": "src/fairness/__mock_data__/regressionWithError.ts",
+        "hash": "17452017443205996868"
+      },
+      {
+        "file": "src/fairness/utils.ts",
+        "hash": "12965903220710885055"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "src/globals.d.ts",
+        "hash": "7950483998972555888"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "13576680364024520896"
+      },
+      {
+        "file": "src/interpret-text/App.tsx",
+        "hash": "5416603663870767866"
+      },
+      {
+        "file": "src/interpret-text/__mock_data__/dbpediaLongDoc.ts",
+        "hash": "8120131775096582162"
+      },
+      {
+        "file": "src/interpret-text/__mock_data__/emotionLongDoc.ts",
+        "hash": "12599850770688316271"
+      },
+      {
+        "file": "src/interpret-text/__mock_data__/newsgroupBinaryData.ts",
+        "hash": "8343565087524018894"
+      },
+      {
+        "file": "src/interpret/App.tsx",
+        "hash": "3872338605856221328"
+      },
+      {
+        "file": "src/interpret/__mock_data__/automlMimicAdult.ts",
+        "hash": "1101161458068529993"
+      },
+      {
+        "file": "src/interpret/__mock_data__/bostonData.ts",
+        "hash": "17465007083365256469"
+      },
+      {
+        "file": "src/interpret/__mock_data__/bostonDataGlobal.ts",
+        "hash": "3025347146784652589"
+      },
+      {
+        "file": "src/interpret/__mock_data__/bostonDataNoDataset.ts",
+        "hash": "17335488903292738949"
+      },
+      {
+        "file": "src/interpret/__mock_data__/bostonDataNoPredict.ts",
+        "hash": "12791613433533583624"
+      },
+      {
+        "file": "src/interpret/__mock_data__/bostonDataNoY.ts",
+        "hash": "16864207493851254926"
+      },
+      {
+        "file": "src/interpret/__mock_data__/breastCancerData.ts",
+        "hash": "6389470062882676884"
+      },
+      {
+        "file": "src/interpret/__mock_data__/ebmData.ts",
+        "hash": "15549658280304000900"
+      },
+      {
+        "file": "src/interpret/__mock_data__/ibmData.ts",
+        "hash": "10766754517704570217"
+      },
+      {
+        "file": "src/interpret/__mock_data__/ibmDataInconsistent.ts",
+        "hash": "6894205046719683454"
+      },
+      {
+        "file": "src/interpret/__mock_data__/ibmDataMissingValues.ts",
+        "hash": "13622287533597035301"
+      },
+      {
+        "file": "src/interpret/__mock_data__/ibmNoClass.ts",
+        "hash": "12965955020055332895"
+      },
+      {
+        "file": "src/interpret/__mock_data__/irisData.ts",
+        "hash": "10529250734459810924"
+      },
+      {
+        "file": "src/interpret/__mock_data__/irisDataNoLocal.ts",
+        "hash": "14197082392074604099"
+      },
+      {
+        "file": "src/interpret/__mock_data__/irisGlobal.ts",
+        "hash": "17642616405971491765"
+      },
+      {
+        "file": "src/interpret/__mock_data__/irisNoData.ts",
+        "hash": "2007274556878660836"
+      },
+      {
+        "file": "src/interpret/__mock_data__/irisNoFeatures.ts",
+        "hash": "12433184704984822345"
+      },
+      {
+        "file": "src/interpret/__mock_data__/largeFeatureCount.ts",
+        "hash": "7917116511604274555"
+      },
+      {
+        "file": "src/main.tsx",
+        "hash": "8055901050163525554"
+      },
+      {
+        "file": "src/model-assessment-forecasting/App.tsx",
+        "hash": "9819188002750534264"
+      },
+      {
+        "file": "src/model-assessment-forecasting/__mock_data__/mockForecastingData.ts",
+        "hash": "16115764006934873600"
+      },
+      {
+        "file": "src/model-assessment-forecasting/__mock_data__/mockForecastingDataNoFeatures.ts",
+        "hash": "12923319202015605745"
+      },
+      {
+        "file": "src/model-assessment-forecasting/__mock_data__/mockForecastingDataSingleTimeSeries.ts",
+        "hash": "12824336807890661093"
+      },
+      {
+        "file": "src/model-assessment-text/App.tsx",
+        "hash": "5648088656705827767"
+      },
+      {
+        "file": "src/model-assessment-text/__mock_data__/blbooksgenre.ts",
+        "hash": "5751197877367421735"
+      },
+      {
+        "file": "src/model-assessment-text/__mock_data__/covidevents.ts",
+        "hash": "11046637463220795500"
+      },
+      {
+        "file": "src/model-assessment-text/__mock_data__/emotion.ts",
+        "hash": "7470653905033885470"
+      },
+      {
+        "file": "src/model-assessment-text/__mock_data__/squad.ts",
+        "hash": "17323729974742163646"
+      },
+      {
+        "file": "src/model-assessment-text/__mock_data__/squadGenai.ts",
+        "hash": "2211560033115556927"
+      },
+      {
+        "file": "src/model-assessment-vision/App.tsx",
+        "hash": "17969614801656954801"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridge.ts",
+        "hash": "5269959525831755600"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeBinary.ts",
+        "hash": "2550406036401680655"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeImages.ts",
+        "hash": "15227463733850808969"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeMultilabel.ts",
+        "hash": "863744562011117099"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeMultilabelImages.ts",
+        "hash": "3951883613691548327"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeObjectDetection.ts",
+        "hash": "10397395086172253172"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/fridgeObjectDetectionImages.ts",
+        "hash": "16511634452464407788"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/imagenet.ts",
+        "hash": "1570959072917913872"
+      },
+      {
+        "file": "src/model-assessment-vision/__mock_data__/images.ts",
+        "hash": "10827741246622385116"
+      },
+      {
+        "file": "src/model-assessment/App.tsx",
+        "hash": "5252475381174600383"
+      },
+      {
+        "file": "src/model-assessment/Model.worker.ts",
+        "hash": "15562579810913493453"
+      },
+      {
+        "file": "src/model-assessment/ModelWorkerMessageTypes.ts",
+        "hash": "14634218611505492332"
+      },
+      {
+        "file": "src/model-assessment/__mock_data__/adultCensus.ts",
+        "hash": "17410760454153492277"
+      },
+      {
+        "file": "src/model-assessment/__mock_data__/bostonData.ts",
+        "hash": "9252493289548572454"
+      },
+      {
+        "file": "src/model-assessment/__mock_data__/wineData.ts",
+        "hash": "4768570034741788719"
+      },
+      {
+        "file": "src/model-assessment/model.py",
+        "hash": "13720485655476382361"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "1688267156393203935"
+      },
+      {
+        "file": "src/utils-unit/WrapText.test.tsx",
+        "hash": "4211534256133338570"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "129469967471556754"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "5485909118015409358"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "13998368754518976073"
+      }
+    ]
+  }
+}
