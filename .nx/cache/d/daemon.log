@@ -2241,3 +2241,1632 @@ Require stack:
 }
 [NX Daemon Server] - 2024-02-23T08:38:17.462Z - Time taken for 'hash changed files from watcher' 1.0358000099658966ms
 [NX Daemon Server] - 2024-02-23T08:38:17.462Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:16:52.626Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:16:52.632Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:16:52.641Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:16:52.644Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:16:52.648Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:16:52.652Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:16:52.652Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:16:52.652Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:16:52.735Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:16:52.744Z - Time taken for 'hash changed files from watcher' 2.607800006866455ms
+[NX Daemon Server] - 2024-02-23T11:16:52.745Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:16:52.748Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:16:55.065Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:16:55.070Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:16:55.079Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:16:55.081Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:16:55.084Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:16:55.087Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:16:55.087Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:16:55.087Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:16:55.170Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:16:55.174Z - Time taken for 'hash changed files from watcher' 1.7754999995231628ms
+[NX Daemon Server] - 2024-02-23T11:16:55.175Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:16:55.176Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:17:15.963Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:17:15.968Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:17:15.970Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:15.971Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:17:15.977Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:17:15.985Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:17:15.985Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:17:15.985Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:17:16.061Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:17:16.066Z - Time taken for 'hash changed files from watcher' 6.00110000371933ms
+[NX Daemon Server] - 2024-02-23T11:17:16.067Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:17:18.580Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:17:18.586Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:17:18.588Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:18.602Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:17:18.612Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:17:18.619Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:17:18.619Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:17:18.620Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:17:18.717Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:17:18.721Z - Time taken for 'hash changed files from watcher' 5.504900008440018ms
+[NX Daemon Server] - 2024-02-23T11:17:18.723Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:17:22.439Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:17:22.444Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:17:22.447Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:22.449Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:17:22.454Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:17:22.478Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:17:22.478Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:17:22.478Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:17:22.564Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:17:22.569Z - Time taken for 'hash changed files from watcher' 22.580600023269653ms
+[NX Daemon Server] - 2024-02-23T11:17:22.569Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:22.570Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:17:31.997Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:17:32.003Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:17:32.012Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:32.014Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:17:32.018Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:17:32.024Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:17:32.024Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:17:32.025Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:17:32.087Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:17:32.093Z - Time taken for 'hash changed files from watcher' 4.832300007343292ms
+[NX Daemon Server] - 2024-02-23T11:17:32.093Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:32.094Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:17:47.161Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:17:47.165Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:17:47.171Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:47.173Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:17:47.176Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:17:47.179Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:17:47.179Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:17:47.179Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:17:47.230Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:17:47.235Z - Time taken for 'hash changed files from watcher' 1.6156000196933746ms
+[NX Daemon Server] - 2024-02-23T11:17:47.235Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:17:47.236Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:18:12.815Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:18:12.819Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:18:12.835Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:18:12.838Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:18:12.842Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:18:13.289Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:18:13.289Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:18:13.289Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:18:13.373Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:18:13.378Z - Time taken for 'hash changed files from watcher' 444.96090000867844ms
+[NX Daemon Server] - 2024-02-23T11:18:13.378Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:18:13.382Z - [WATCHER]: .nx/cache/nx_files.nxt was modified
+[NX Daemon Server] - 2024-02-23T11:18:13.385Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:50:58.898Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:50:58.902Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:50:58.904Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:50:58.906Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:50:58.909Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:50:59.077Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:50:59.077Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:50:59.077Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:50:59.137Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:50:59.142Z - Time taken for 'hash changed files from watcher' 166.66499999165535ms
+[NX Daemon Server] - 2024-02-23T11:50:59.142Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:50:59.147Z - [WATCHER]: .nx/cache/nx_files.nxt was modified
+[NX Daemon Server] - 2024-02-23T11:50:59.148Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:00.907Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:00.913Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:00.925Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:00.926Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:00.927Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:00.929Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:00.932Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:00.932Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:00.932Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:00.986Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:00.990Z - Time taken for 'hash changed files from watcher' 1.8449000120162964ms
+[NX Daemon Server] - 2024-02-23T11:51:00.991Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:05.664Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:05.668Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:05.669Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:05.670Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:05.675Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:05.690Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:05.690Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:05.690Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:05.754Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:05.758Z - Time taken for 'hash changed files from watcher' 13.394499987363815ms
+[NX Daemon Server] - 2024-02-23T11:51:05.759Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:13.978Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:13.983Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:13.989Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:13.992Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:13.995Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:13.997Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:13.997Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:13.998Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:14.049Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:14.053Z - Time taken for 'hash changed files from watcher' 1.4034000039100647ms
+[NX Daemon Server] - 2024-02-23T11:51:14.053Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:14.054Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:30.233Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:30.238Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:30.255Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:30.257Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:30.260Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:30.268Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:30.268Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:30.268Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:30.318Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:30.322Z - Time taken for 'hash changed files from watcher' 6.863200008869171ms
+[NX Daemon Server] - 2024-02-23T11:51:30.322Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:30.323Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:40.673Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:40.677Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:40.686Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:40.688Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:40.691Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:40.696Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:40.696Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:40.696Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:40.751Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:40.755Z - Time taken for 'hash changed files from watcher' 2.8307999968528748ms
+[NX Daemon Server] - 2024-02-23T11:51:40.755Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:40.755Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:55.245Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:55.251Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:55.257Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:55.259Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:55.263Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:55.266Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:55.266Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:55.266Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:55.329Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:55.334Z - Time taken for 'hash changed files from watcher' 1.4997000098228455ms
+[NX Daemon Server] - 2024-02-23T11:51:55.334Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:55.335Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:51:57.208Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:51:57.213Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:51:57.218Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:57.220Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:51:57.226Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:51:57.230Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:51:57.230Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:51:57.230Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:51:57.333Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:51:57.338Z - Time taken for 'hash changed files from watcher' 2.0749000012874603ms
+[NX Daemon Server] - 2024-02-23T11:51:57.338Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:51:57.340Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:52:01.354Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:52:01.358Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:52:01.371Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:01.374Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:52:01.378Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:52:01.381Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:52:01.382Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:52:01.382Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:52:01.442Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:52:01.447Z - Time taken for 'hash changed files from watcher' 1.999899983406067ms
+[NX Daemon Server] - 2024-02-23T11:52:01.447Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:01.448Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:52:10.383Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:52:10.387Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:52:10.396Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:10.399Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:52:10.402Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:52:10.405Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:52:10.405Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:52:10.405Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:52:10.451Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:52:10.454Z - Time taken for 'hash changed files from watcher' 1.813400000333786ms
+[NX Daemon Server] - 2024-02-23T11:52:10.454Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:10.456Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:52:26.400Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:52:26.404Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:52:26.416Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:26.419Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:52:26.422Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:52:26.425Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:52:26.425Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:52:26.425Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:52:26.486Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:52:26.490Z - Time taken for 'hash changed files from watcher' 1.6285999715328217ms
+[NX Daemon Server] - 2024-02-23T11:52:26.490Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:26.491Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:52:52.959Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:52:52.964Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:52:52.969Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:52.972Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:52:52.976Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:52:52.979Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:52:52.979Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:52:52.979Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:52:53.042Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:52:53.047Z - Time taken for 'hash changed files from watcher' 1.7023000121116638ms
+[NX Daemon Server] - 2024-02-23T11:52:53.047Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:52:53.049Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:21.312Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:21.317Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:21.320Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:21.323Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:21.328Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:21.339Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:21.339Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:21.340Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:21.499Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:21.505Z - Time taken for 'hash changed files from watcher' 9.930200010538101ms
+[NX Daemon Server] - 2024-02-23T11:54:21.505Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:21.507Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:23.325Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:23.329Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:23.334Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:23.337Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:23.341Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:23.343Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:23.343Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:23.343Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:23.408Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:23.415Z - Time taken for 'hash changed files from watcher' 1.545199990272522ms
+[NX Daemon Server] - 2024-02-23T11:54:23.415Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:23.416Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:27.620Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:27.625Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:27.629Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:27.631Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:27.636Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:27.640Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:27.640Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:27.641Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:27.725Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:27.729Z - Time taken for 'hash changed files from watcher' 2.6391000151634216ms
+[NX Daemon Server] - 2024-02-23T11:54:27.729Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:27.730Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:36.746Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:36.754Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:36.762Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:36.765Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:36.769Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:36.779Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:36.780Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:36.780Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:36.841Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:36.845Z - Time taken for 'hash changed files from watcher' 9.071700006723404ms
+[NX Daemon Server] - 2024-02-23T11:54:36.845Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:36.845Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:38.315Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:38.320Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:38.321Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:38.323Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:38.327Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:38.596Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:38.596Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:38.596Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:38.645Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:38.648Z - Time taken for 'hash changed files from watcher' 267.72419998049736ms
+[NX Daemon Server] - 2024-02-23T11:54:38.648Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:54:53.702Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:54:53.708Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:54:53.710Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:53.713Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:54:53.718Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:54:53.733Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:54:53.733Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:54:53.733Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:54:53.810Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:54:53.817Z - Time taken for 'hash changed files from watcher' 12.794600009918213ms
+[NX Daemon Server] - 2024-02-23T11:54:53.817Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:54:53.819Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:01.648Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:01.653Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:01.659Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:01.661Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:01.665Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:01.668Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:01.668Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:01.668Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:01.721Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:01.724Z - Time taken for 'hash changed files from watcher' 1.6696999967098236ms
+[NX Daemon Server] - 2024-02-23T11:55:01.725Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:01.726Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:03.576Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:03.583Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:03.587Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:03.590Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:03.594Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:03.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:03.597Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:03.598Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:03.658Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:03.663Z - Time taken for 'hash changed files from watcher' 2.0228999853134155ms
+[NX Daemon Server] - 2024-02-23T11:55:03.664Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:03.665Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:08.441Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:08.451Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:08.456Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:08.460Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:08.461Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:08.467Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:08.473Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:08.473Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:08.473Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:08.592Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:08.601Z - Time taken for 'hash changed files from watcher' 3.973900020122528ms
+[NX Daemon Server] - 2024-02-23T11:55:08.604Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:16.682Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:16.686Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:16.688Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:16.691Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:16.694Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:16.698Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:16.698Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:16.698Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:16.756Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:16.760Z - Time taken for 'hash changed files from watcher' 2.152300000190735ms
+[NX Daemon Server] - 2024-02-23T11:55:16.760Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:16.761Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:32.795Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:32.800Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:32.802Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:32.804Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:32.809Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:32.815Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:32.815Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:32.815Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:32.874Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:32.878Z - Time taken for 'hash changed files from watcher' 4.428799986839294ms
+[NX Daemon Server] - 2024-02-23T11:55:32.879Z - Done responding to the client null
+[NX Daemon Server] - 2024-02-23T11:55:57.836Z - Started listening on: \\.\pipe\nx\C:\Users\manju\AppData\Local\Temp\736ccf250f5247f3d19c\d.sock
+[NX Daemon Server] - 2024-02-23T11:55:57.841Z - [WATCHER]: Subscribed to changes within: c:\Users\manju\OneDrive\Desktop\Dashboard (native)
+[NX Daemon Server] - 2024-02-23T11:55:57.860Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:57.862Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-02-23T11:55:57.865Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-23T11:55:57.868Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-02-23T11:55:57.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-02-23T11:55:57.869Z - [REQUEST]: 
+Plugin listed in `nx.json` not found: @nx/webpack/plugin
+[NX Daemon Server] - 2024-02-23T11:55:57.917Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+Error: Cannot find module '@nx/webpack/plugin'
+Require stack:
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\build-project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\project-graph.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\project-graph-utils.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\file-watching\file-watcher-sockets.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\server.js
+- c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\start.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.resolve (node:internal/modules/cjs/helpers:108:19)
+    at getPluginPathAndName (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:35:30)
+    at loadNxPluginAsync (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:78:38)
+    at loadNxPlugins (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\utils\nx-plugin.js:105:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async retrieveProjectConfigurations (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\project-graph\utils\retrieve-workspace-files.js:45:21)
+    at async processFilesAndCreateAndSerializeProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:140:28)
+    at async getCachedSerializedProjectGraphPromise (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\project-graph-incremental-recomputation.js:43:16)
+    at async handleRequestProjectGraph (c:\Users\manju\OneDrive\Desktop\Dashboard\node_modules\nx\src\daemon\server\handle-request-project-graph.js:12:24) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\nx-plugin.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\build-project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\project-graph\\project-graph.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\utils\\project-graph-utils.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\file-watching\\file-watcher-sockets.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\server.js',
+    'c:\\Users\\manju\\OneDrive\\Desktop\\Dashboard\\node_modules\\nx\\src\\daemon\\server\\start.js'
+  ]
+}
+[NX Daemon Server] - 2024-02-23T11:55:57.922Z - Time taken for 'hash changed files from watcher' 2.578700006008148ms
+[NX Daemon Server] - 2024-02-23T11:55:57.922Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-23T11:55:57.922Z - Done responding to the client null
