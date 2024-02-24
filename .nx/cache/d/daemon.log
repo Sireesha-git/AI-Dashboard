@@ -2473,3 +2473,21 @@ Require stack:
 [NX Daemon Server] - 2024-02-24T05:12:39.514Z - Done responding to the client project-graph
 [NX Daemon Server] - 2024-02-24T05:12:39.514Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 4.
 [NX Daemon Server] - 2024-02-24T05:12:40.262Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-24T05:16:54.922Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-24T05:16:54.922Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-24T05:16:54.923Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-24T05:16:54.928Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-24T05:16:54.928Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-24T05:16:54.931Z - Time taken for 'total for creating and serializing project graph' 0.4501000000163913ms
+[NX Daemon Server] - 2024-02-24T05:16:54.931Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-24T05:16:54.931Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-02-24T05:16:55.572Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-24T05:19:12.258Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-24T05:19:12.259Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-02-24T05:19:12.260Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-02-24T05:19:12.265Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-02-24T05:19:12.266Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-02-24T05:19:12.268Z - Time taken for 'total for creating and serializing project graph' 0.3928000000305474ms
+[NX Daemon Server] - 2024-02-24T05:19:12.269Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-02-24T05:19:12.269Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2024-02-24T05:19:12.284Z - Closed a connection. Number of open connections: 0
