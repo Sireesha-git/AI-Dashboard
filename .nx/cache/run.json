@@ -1,0 +1,9 @@
+{
+  "run": {
+    "command": "nx affected --target=build --base=HEAD~1 --parallel=false",
+    "startTime": "2024-02-23T18:50:49.153Z",
+    "endTime": "2024-02-23T18:50:49.157Z",
+    "inner": false
+  },
+  "tasks": []
+}
